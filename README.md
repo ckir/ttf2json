@@ -1,6 +1,9 @@
 # ttf2json
 A procedure to convert ttf/otf fonts to json format for use by libraries like blessed
 
+# Why you might want to convert a ttf/otf font to json format
+You need fonts in json format in case you are writing tuis for blessed neo-blessed reblessed etc libraries and you are not happy with the standard terminus font for your BigText widgets.
+
 # How to use it
 1. clone this repo
 2. put your ttf fonts into fonts_ttf folder (or/and your otf fonts into fonts_otf folder)
